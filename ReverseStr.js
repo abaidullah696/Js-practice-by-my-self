@@ -7,10 +7,10 @@ function reverseString(str) {
         reverseStr += str[i]
     }
     return reverseStr
-    //With js pre built functions
+   
   
   }
-
+ //With js pre built functions
 function reverseStrWithPreBuiltJs(str) {
     var arr =  str.split("").reverse().join("")
     return  arr
