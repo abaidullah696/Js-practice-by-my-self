@@ -11,3 +11,14 @@ function factorial(num) {
     return result
   }
   console.log(factorial(5)); // 120
+
+
+  function fict(params) {
+    let result = 1
+    for (let i = 1; i <= params; i++) {
+        result *= i
+        
+    }
+    return result
+  }
+  console.log(fict(5))
