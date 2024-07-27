@@ -23,4 +23,3 @@ function replaceWithNextChar(str) {
   const inputString = "Hello, World!";
   const outputString = replaceWithNextChar(inputString);
   console.log(outputString); // "Ifmmp, Xpsme!"
-  
