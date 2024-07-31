@@ -22,3 +22,33 @@ function getDate() {
         console.log(dd_mm_yyyy_slash);   // Output: dd/mm/yyyy
 }
 getDate()
+
+
+
+function getDateFormate() {
+    const today = new Date()
+    const day = String(today.getDate()).padStart(2, '0')
+    const month = String(today.getMonth() + 1).padStart(2, '0')
+    const year = String(today.getFullYear())
+
+
+    const mm_dd_yyyy = `${day}/${month}/${year}`
+    const mm_dd_yyyy_slash = `${day}-${month}-${year}`
+
+    console.log(mm_dd_yyyy)
+    console.log(mm_dd_yyyy_slash)
+}
+getDateFormate()
+
+
+
+
+
+
+
+
+
+
+
+
+
