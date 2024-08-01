@@ -6,3 +6,4 @@ function concat2strexept1stword(str1, str2) {
 }
 
 console.log(concat2strexept1stword("Hello", "There"))
+console.log(concat2strexept1stword("Hello", "World"))
