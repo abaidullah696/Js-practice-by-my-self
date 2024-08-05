@@ -23,3 +23,11 @@ function replaceWithNextChar(str) {
   const inputString = "Hello, World!";
   const outputString = replaceWithNextChar(inputString);
   console.log(outputString); // "Ifmmp, Xpsme!"
+
+
+  //with pre built functions
+
+  function alphabeticalOrder(str) {
+    return str.split('').sort().join('')
+  }
+  console.log(alphabeticalOrder("webmaster"))
