@@ -1,8 +1,23 @@
 function findLongestWord(str) {
-    // Your code here
-    console.log(str)
-    var longestWord = 
-    str.split(" ").
+  // Split the string into an array of words
+  const words = str.split(' ');
+
+  // Initialize variables to track the longest word and its length
+  let longestWord = '';
+  let maxLength = 0;
+
+  // Iterate through each word in the array
+  for (let word of words) {
+      // Check if the current word is longer than the longest word found so far
+      if (word.length > maxLength) {
+          longestWord = word;
+          maxLength = word.length;
+      }
   }
-  console.log(findLongestWord("The quick brown fox jumped over the lazy dog")); // 6
-  
+
+  return longestWord;
+}
+
+// Example usage
+const inputString = 'The quick brown fox jumped over the lazy dog';
+console.log(findLongestWord(inputString)); // Output: 'jumped'
