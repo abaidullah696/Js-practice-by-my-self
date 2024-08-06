@@ -21,3 +21,4 @@ function findLongestWord(str) {
 // Example usage
 const inputString = 'The quick brown fox jumped over the lazy dog';
 console.log(findLongestWord(inputString)); // Output: 'jumped'
+console.log(findLongestWord("Somithing is big"));
