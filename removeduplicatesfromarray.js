@@ -20,3 +20,22 @@ const uniqueNums = nums.slice(0, uniqueCount);
 
 console.log(uniqueCount); // Output: 2
 console.log(uniqueNums);  // Output: [1, 2]
+
+
+
+
+
+
+
+//Another way
+var nums = [1, 1, 2];
+var newNum = [];
+var removeDuplicates = function(nums) {
+    for(let i = 0; i < nums.length; i++) {
+        if(nums[i] !== nums[i+1]) {
+            newNum.push(nums[i]);
+        }
+    }
+};
+removeDuplicates(nums);
+console.log(newNum); // Output will be [1, 2]
