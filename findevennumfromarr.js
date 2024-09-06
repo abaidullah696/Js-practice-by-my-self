@@ -38,4 +38,6 @@ function countEvenDigits(arr) {
   console.log(countEvenDigits([0, 246, 13579])); // Output: 4 (0, 2, 4, 6)
   console.log(countEvenDigits([48, 55, 66, 77])); // Output: 5 (4, 8, 6, 6)
   console.log(countEvenDigits([-248, 7, -135, 802])); // Output: 5 (2, 4, 8, 8, 2)
+  console.log(countEvenDigits([-48, 78, -35, 802])); // Output: 5 (2, 4, 8, 8, 2)
+
   
