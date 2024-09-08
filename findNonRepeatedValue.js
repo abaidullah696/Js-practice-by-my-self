@@ -14,3 +14,4 @@ function singleNumber(nums) {
     
     return result;
 }
+console.log(singleNumber([4,5,5,6,6]))
